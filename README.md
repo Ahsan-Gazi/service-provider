@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+
+
+# Service provider
+Live web site link [https://product-exploration.netlify.app/)]
+(https://product-exploration.netlify.app/).
+
+* Added Firebase db
+* Added authentication using firebase
+* Added login, singup and logout button 
+* Added protected route for checkout page
+* Added 3 questions and answers in blogs page
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
