@@ -11,12 +11,11 @@ const Home = () => {
     const navigate = useNavigate();
 
     return (
-        <div>
-            {/* <h2>This is home</h2> */}
+        
+        
 
-            <div className="grid-container container-fluid">
-        {/* card 1 */}
-        {/* <div className="Row"> */}
+        <div className="grid-container container-fluid">
+      
           <div className="col">
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={person1} />
@@ -87,7 +86,7 @@ const Home = () => {
         {/* </div> */}
       </div>
 
-        </div>
+       
     );
 };
 
