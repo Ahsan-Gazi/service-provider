@@ -20,16 +20,15 @@ const Home = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={person1} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Jamil Hossen</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Laptop service provider
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
-                <ListGroupItem>Cras justo odio</ListGroupItem>
-                <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                <ListGroupItem>Vestibulum at eros</ListGroupItem>
+                <ListGroupItem>Mac service provider</ListGroupItem>
+                <ListGroupItem>HP service provider</ListGroupItem>
+                <ListGroupItem>Dell service provider</ListGroupItem>
               </ListGroup>
               <Card.Body>
                 <button onClick={() => navigate("/checkout")}>CheckOut</button>
@@ -39,18 +38,17 @@ const Home = () => {
           {/* card 2 */}
           <div className="col">
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={person2} />
+              <Card.Img height={185} variant="top" src={person2} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Bayan Mike</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Cloth service provider
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
-                <ListGroupItem>Cras justo odio</ListGroupItem>
-                <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                <ListGroupItem>Vestibulum at eros</ListGroupItem>
+                <ListGroupItem>Italian Bindas</ListGroupItem>
+                <ListGroupItem>Bangladeshi Garments product</ListGroupItem>
+                <ListGroupItem>Kashmiri shal</ListGroupItem>
               </ListGroup>
               <Card.Body>
                 <button onClick={() => navigate("/checkout")}>CheckOut</button>
@@ -62,16 +60,15 @@ const Home = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={person3} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Naila Hossen</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Book service provider
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
-                <ListGroupItem>Cras justo odio</ListGroupItem>
-                <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                <ListGroupItem>Vestibulum at eros</ListGroupItem>
+                <ListGroupItem>English Book</ListGroupItem>
+                <ListGroupItem>Chinese book</ListGroupItem>
+                <ListGroupItem>Korean Book</ListGroupItem>
               </ListGroup>
               <Card.Body>
                 <button
@@ -83,7 +80,7 @@ const Home = () => {
               </Card.Body>
             </Card>
           </div>
-        {/* </div> */}
+       
       </div>
 
        

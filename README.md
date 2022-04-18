@@ -1,8 +1,8 @@
 
 
 # Service provider
-Live web site link [https://product-exploration.netlify.app/)]
-(https://product-exploration.netlify.app/).
+Live web site link [https://service-provider-app.netlify.app/)]
+(https://service-provider-app.netlify.app/).
 
 * Added Firebase db
 * Added authentication using firebase
