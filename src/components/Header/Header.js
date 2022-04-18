@@ -45,7 +45,7 @@ const Header = () => {
         ) : (
           <NavLink
             className={({ isActive }) => (isActive ? "active-link" : "link")}
-            to="/Signin"
+            to="/login"
           >
             SignIn
           </NavLink>
